@@ -1,0 +1,95 @@
+import type { Item } from '../types';
+
+export const dateIdeas: Item[] = [
+  {
+    id: 'home-tasting',
+    category: 'Date ideas',
+    topics: ['at-home', 'budget'],
+    title: 'The living-room tasting club',
+    sub: '45 min · At home · Use what you have',
+    icon: '🍫',
+    body: [
+      'Turn three things from your cupboard into a tiny tasting menu: chocolate, tea, crackers—anything goes.',
+      'Hide the labels and give each sample an outrageously fancy name. Take turns guessing the ingredients.',
+      'Finish by choosing your favorite and telling each other one ordinary moment you loved this week.',
+    ],
+  },
+  {
+    id: 'home-art',
+    category: 'Date ideas',
+    topics: ['at-home', 'unusual', 'budget'],
+    title: 'Portraits with absolutely no talent',
+    sub: '30 min · At home · Paper & pens',
+    icon: '🎨',
+    body: [
+      'Put on a shared playlist and sit opposite each other with paper and pens.',
+      'Draw each other without looking down at your page. Set a five-minute timer, then reveal your masterpieces.',
+      'Give both portraits dramatic gallery titles and find a spot for your tiny exhibition.',
+    ],
+  },
+  {
+    id: 'active-dance',
+    category: 'Date ideas',
+    topics: ['active', 'at-home', 'romantic'],
+    title: 'Our two-person dance floor',
+    sub: '30 min · At home · Your favorite songs',
+    icon: '💃',
+    body: [
+      'Each choose three songs: something nostalgic, something ridiculous, and a slow one.',
+      'Move the furniture a little, put the phones away, and take turns leading—or just make it up together.',
+      'No performance required. End with the song that feels most like the two of you.',
+    ],
+  },
+  {
+    id: 'active-game',
+    category: 'Date ideas',
+    topics: ['active', 'outdoors', 'budget'],
+    title: 'A very friendly park tournament',
+    sub: '1 hour · Outdoors · Bring a ball',
+    icon: '🏸',
+    body: [
+      'Bring a ball, a frisbee, or a badminton set to a nearby park.',
+      'Invent three silly challenges together. Keep things light and adjust the activity to what feels comfortable for both of you.',
+      'Celebrate with a snack and award a completely unofficial prize for best dramatic reaction.',
+    ],
+  },
+  {
+    id: 'unusual-tourists',
+    category: 'Date ideas',
+    topics: ['unusual', 'outdoors'],
+    title: 'Tourists in our own town',
+    sub: '2 hours · Out & about · A new perspective',
+    icon: '🗺️',
+    body: [
+      'Pick one public place in your town neither of you has properly explored.',
+      'Take turns being the tour guide. Make up silly backstories for ordinary landmarks, then look up one real fact.',
+      'Find a little café or bench and choose one thing you want to revisit together.',
+    ],
+  },
+  {
+    id: 'unusual-thrift',
+    category: 'Date ideas',
+    topics: ['unusual', 'budget'],
+    title: 'The tiny treasure hunt',
+    sub: '1 hour · Secondhand shop · Set a budget',
+    icon: '🪄',
+    body: [
+      'Agree on a small spending limit—or make this a no-purchase browsing adventure.',
+      'Find something that reminds you of your partner, something for your imaginary dream home, and the strangest object in the shop.',
+      'Show each other your picks and explain every highly questionable decision.',
+    ],
+  },
+  {
+    id: 'romantic-sunset',
+    category: 'Date ideas',
+    topics: ['romantic', 'outdoors', 'budget'],
+    title: 'A sunset, just for us',
+    sub: '45 min · Outdoors · Bring a blanket',
+    icon: '🌅',
+    body: [
+      'Find a comfortable public spot with a view of the sky and bring a warm drink.',
+      'Each share one thing you appreciated about the other this week. Let the conversation wander without a plan.',
+      'Stay a little longer than you normally would. Sometimes the date is simply making the time.',
+    ],
+  },
+];

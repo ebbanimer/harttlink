@@ -1,0 +1,52 @@
+export const QUIZ_COPY = {
+  inApp: 'ANSWER IN THE APP',
+  question: 'Question',
+  of: 'of',
+  back: 'Back',
+  next: 'Next question',
+  finish: 'Finish my answers',
+  you: 'Your answers',
+  partner: 'Partner’s answers',
+  guesses: 'Your guesses',
+  results: 'Results',
+  partnerIntro:
+    'Your partner answers about themselves, then you guess their choices. Hand over the phone between turns. Questions refer to the person being guessed about.',
+  selfIntro:
+    'Answer for yourself, then optionally hand the phone to your partner so they can discover their preferences too.',
+  compareIntro:
+    'Each choose your own answers in the app, then compare your choices together.',
+  localNotice:
+    'Shared-device prototype. Answers stay in this browser; they do not sync to another phone.',
+  partnerTurn: 'Partner’s turn: choose what fits you.',
+  guessTurn: 'Your turn: guess what your partner chose.',
+  yourTurn: 'Choose what fits you best right now.',
+  choose: 'Choose one answer to continue.',
+  saved: 'Your progress is saved as you go.',
+  complete: 'Your answers are complete',
+  partnerComplete: 'Your partner’s answers are complete',
+  nextPartner: 'Hand over to my partner',
+  nextGuesses: 'Now guess their answers',
+  compare: 'Compare our answers',
+  edit: 'Review my answers',
+  waiting: 'Both rounds need to be finished before you can compare.',
+  partnerFirst:
+    'Let your partner finish their answers before you start guessing.',
+  matches: 'matching answers',
+  matchHint:
+    'A playful snapshot of these choices, not a score for your relationship.',
+  selfResult: 'How you like to receive love',
+  partnerResult: 'How your partner likes to receive love',
+  styleHint:
+    'A reflection on today’s preferences, not a validated assessment or a fixed personality type. More than one kind of affection can matter to you.',
+  tie: 'A mix of favorites',
+  share: 'Share my result with my partner',
+  sharePrefix: 'My affection preferences today: ',
+  shared: 'Choose how to share your result',
+  yours: 'You chose',
+  theirs: 'Partner chose',
+  guessed: 'You guessed',
+  actual: 'Partner’s answer',
+  pickPartner: 'Add partner’s answers',
+  finishRound: 'Finish your round to see results.',
+  noQuiz: 'This quiz is not available yet.',
+} as const;

@@ -1,0 +1,87 @@
+import type { Item } from '../types';
+import { FUNNY_QUESTIONS } from './sharing';
+
+export const questionPacks: Item[] = [
+  {
+    id: 'money-talks',
+    category: 'Questions',
+    topics: ['financial'],
+    title: 'Money, without the awkwardness',
+    sub: '5 prompts · Talk about what matters',
+    icon: '🪙',
+    body: [
+      'What did money mean in your family when you were growing up?',
+      'Which little expense feels completely worth it to you?',
+      'What would make talking about shared spending feel more comfortable?',
+      'What is one experience we would love to save for together?',
+      'How do we each like to balance treating ourselves with planning ahead?',
+    ],
+  },
+  {
+    id: 'money-dreams',
+    category: 'Questions',
+    topics: ['financial', 'future'],
+    title: 'If we could build anything',
+    sub: '4 prompts · Shared priorities',
+    icon: '🏡',
+    body: [
+      'What does feeling financially comfortable mean to each of us?',
+      'If we had a little extra money this month, what would each of us choose to do with it?',
+      'Which shared dream feels exciting enough to plan for?',
+      'What is a low-cost tradition we would love to keep, whatever our budget?',
+    ],
+  },
+  {
+    id: 'funny-talks',
+    category: 'Questions',
+    topics: ['funny'],
+    title: 'A very unserious conversation',
+    sub: '12 prompts · Laugh together in real life',
+    icon: '🍌',
+    body: [...FUNNY_QUESTIONS],
+  },
+  {
+    id: 'rather-talks',
+    category: 'Questions',
+    topics: ['would-you-rather', 'funny'],
+    title: 'Would you rather: the sofa edition',
+    sub: '5 prompts · Say your choice out loud',
+    icon: '🎈',
+    body: [
+      'Would you rather have a personal theme song or a narrator for your everyday life?',
+      'Would you rather we run a tiny bakery or host a very chaotic travel show?',
+      'Would you rather swap wardrobes for a week or playlists for a month?',
+      'Would you rather relive our first date or get a sneak peek at a future adventure?',
+      'Would you rather plan a surprise date for me or let me plan one for you—and why?',
+    ],
+  },
+  {
+    id: 'future-talks',
+    category: 'Questions',
+    topics: ['future', 'deep'],
+    title: 'Our next chapter',
+    sub: '5 prompts · Make space for dreams',
+    icon: '✨',
+    body: [
+      'What would a really lovely ordinary day together look like in five years?',
+      'What is something you want to learn that I could cheer you on with?',
+      'Which place would you love us to experience together?',
+      'What is one tradition you hope we never lose?',
+      'What is a tiny step toward a shared dream that would feel good this month?',
+    ],
+  },
+  {
+    id: 'deep-support',
+    category: 'Questions',
+    topics: ['deep'],
+    title: 'Help me understand you',
+    sub: '4 prompts · Listen a little longer',
+    icon: '🫶',
+    body: [
+      'When you are having a hard day, what kind of support feels most welcome?',
+      'What is something people often misunderstand about you?',
+      'When do you feel most seen by me?',
+      'What would you like us to make more room for in our relationship?',
+    ],
+  },
+];
